@@ -1,0 +1,17 @@
+.HeaderHome-contenedor{
+    display: flex;
+    
+}
+.HeaderHome-p{
+    margin-right: 50px;
+}
+.HeaderHome-sub-contenedor{
+ padding-left: 100px;
+ padding-top: 10px;
+ border-bottom: 5px solid rgb(176, 82, 82);
+}
+.HeaderHome-imagen{
+    padding-right: 480px;
+    margin: 10px;
+   
+}

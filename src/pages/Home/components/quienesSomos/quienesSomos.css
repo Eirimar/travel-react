@@ -1,0 +1,25 @@
+   .contenedor-grande {
+    display: flex;
+   }
+
+   .titulo-uno {
+   margin-left: 100px;
+    margin-right: 55px;
+   }
+
+   .parrafo-uno {
+    margin-right: 250px;
+    margin-left: 100px;
+    text-align: justify;
+   }
+   .parrafo-dos {
+   padding-right: 100px;
+    text-align: justify;
+   }
+
+    
+    
+   
+
+
+

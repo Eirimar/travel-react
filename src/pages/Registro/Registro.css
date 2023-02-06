@@ -1,0 +1,26 @@
+.registro-errorContrasena {
+    color: red;
+    
+}
+.registro-p {
+    color:blue
+    
+}
+.registro-p{
+    text-align: start;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100%;
+}
+.registro-container{
+/*   text-align:center; */
+ 
+  margin: auto;
+
+}
+
+.registro-sub-container {
+    margin: auto;
+    padding-left: 40%;
+}
+
