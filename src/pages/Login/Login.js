@@ -7,23 +7,21 @@ const Login = () => {
     const [usuario, setUsuario] = useState("")
     const [contrasena, setContrasena] = useState("")
     const handleAceptar = () => {
-      console.log(usuario)
-      console.log(contrasena)
+      window.location.href = "/home"
     }
     
-    
-
-
 
   return (
-    <div> 
-      <Header/>
-       <p>Usiario</p>
+    <div className='container-grande'> 
+      <Header usuario={usuario}/>
+       <p className='tex-uno'>Usiario</p>
        <input onChange={(e)=>setUsuario(e.target.value)}></input> 
-       <p>Contraseña</p>
+       <p className='tex-uno'>Contraseña</p>
        <input onChange={(e)=>setContrasena(e.target.value)}></input> 
        <br></br>
+       <br></br>
        <button onClick={handleAceptar}>Aceptar</button>
+    
           { (contrasena ==! "1234")?(<p></p>):(<p>error</p>) }
           { (usuario && contrasena)?(<p></p>):(<p className="todosloscampossonrequeridos">todos los campos son requeridos
     </p>) }
