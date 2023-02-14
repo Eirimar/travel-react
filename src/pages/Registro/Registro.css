@@ -1,26 +1,31 @@
+
+
+.contenedor-grande {
+    display: flex;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+   
+    }
+
+
+.container-button {
+    border-radius: 1px;
+    font-size: 14px;
+    border-color: 1px gray;
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+    }
+
 .registro-errorContrasena {
     color: red;
-    
-}
-.registro-p {
-    color:blue
-    
-}
-.registro-p{
-    text-align: start;
-    
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:100%;
-}
-.registro-container{
-/*   text-align:center; */
- 
-  margin: auto;
-
+    text-align: center;
 }
 
-.registro-sub-container {
-    margin: auto;
-    padding-left: 40%;
+.boton {
+    padding: 3px 3px;
 }
-
+  .caja-menor {
+    border: 1px solid gray ;
+  }

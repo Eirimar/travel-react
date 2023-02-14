@@ -1,15 +1,19 @@
-import { useEffect, useState } from "react";
-import "./header.css";
+import "./header.css"
 
-const Header = ({usuario}) => {
+const Header = () => {
 
- 
+
+
   return (
-    <div className="header-contenedor">
-         <p className="texto" style={{textAlign:"end"}}>{usuario}</p>
-      <p className="texto">header</p>
-   
+    <div className="contenedor">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeNzWywrHCpx6X1jQ9XKdmWID8950tDJRDJB9LFubBbv2rY9gDEOzlTudGTxFLj_nvw&usqp=CAU"
+     width="20%"></img>
+
+
+
     </div>
+    
+    
   );
 };
 

@@ -5,6 +5,8 @@ import QuienesSomos from './components/quienesSomos/quienesSomos'
 import Productos from './components/productos/productos'
 import DondeComprar from './components/dondeComprar/dondeComprar'
 import Contacto from './components/contacto/contacto'
+import Vuelos from "./components/Vuelos/Vuelos"
+
 
 
 const Home = () => {
@@ -15,8 +17,9 @@ const Home = () => {
            <Productos/>
            <DondeComprar/> 
            <Contacto/>
-        <Footer/>
-    </div>
+           <Vuelos/>
+           <Footer/>
+            </div>
   )
 }
 
