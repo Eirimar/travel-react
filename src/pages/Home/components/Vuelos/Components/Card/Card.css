@@ -1,2 +1,8 @@
+.contenedor {
+    text-align: center;
+}
 
-
+.boton {
+    border-radius: 6px;
+  width: 100px;
+}

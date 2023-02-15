@@ -1,5 +1,37 @@
 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    }
+
+.container-filtro {
+   
+    justify-content: space-around;
+    margin-left: 550px;
+    margin-right: 550px;
+
+}
+
+.caja {
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: gray;
+    
+    
+}
+
+texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: brown;
+}
+
+.oferta {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+   
 }

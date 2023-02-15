@@ -14,9 +14,9 @@ const HeaderHome = () => {
         width="13%"></img>
 
     <div className="caja-medium">
-      <a href="http://localhost:3000/login" style={{ margin: "20px", color: "rgba(0, 0, 0, 0.671", textDecoration: "none"}}> Iniciar Sesion</a>
-      <p>Mis viajes</p>
-      <a href="https://www.despegar.com.ar/ayuda/" style={{ margin: "20px", color: "rgba(0, 0, 0, 0.671", textDecoration: "none"}}>Ayuda</a>
+      <a href="http://localhost:3000/login" style={{ margin: "20px", color: "rgba(0, 0, 0, 0.671", textDecoration: "none"}}> Iniciar Sesion 👤</a>
+      <p>Mis viajes 🧳</p>
+      <a href="https://www.despegar.com.ar/ayuda/" style={{ margin: "20px", color: "rgba(0, 0, 0, 0.671", textDecoration: "none"}}>Ayuda ❔</a>
       </div>    
 
 

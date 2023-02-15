@@ -16,9 +16,11 @@ const Vuelos = () => {
   return (
 
     <div>
+      <h1 className='oferta'> Ofertas 🔥</h1>
+    <div>
       <p>Filtro</p>
-      <input onChange={(e)=>setBusquedaMes(e.target.value)}></input>
-    
+      <input onChange={(e)=>setBusquedaMes(e.target.value)} className="caja"></input>
+      </div>
     <div className='container' >
               {vuelos
         .filter(vuelo => vuelo.fechaMes === busquedaMes || !busquedaMes)
